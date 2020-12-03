@@ -8,9 +8,9 @@ export default class IceCreamBuilder extends Component {
         items: {
             vanilla: 60,
             chocolate: 70,
-            strawberry: 75,
-            lemon: 40,
-            orange: 45,
+            strawberry: 65,
+            lemon: 50,
+            orange: 55,
         },
         scoops: [],
         totalPrice: 0,
