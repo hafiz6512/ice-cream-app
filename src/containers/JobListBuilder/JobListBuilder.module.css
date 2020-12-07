@@ -1,0 +1,14 @@
+.joblist_table {
+  position: relative;
+  padding: 0;
+  display: block !important;
+  margin-top: 60px;
+  border: none;
+  width: 100%;
+}
+
+.joblist_table h3 {
+  font-size: 18px;
+  padding: 0;
+  margin: 20px 0 10px;
+}
