@@ -1,7 +1,6 @@
 {
   "name": "ice-cream",
   "version": "0.1.0",
-  "homepage": "https://hafiz6512.github.io/ice-cream-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,6 +13,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^4.0.1"
   },
+  "homepage": "https://hafiz6512.github.io/ice-cream-app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
