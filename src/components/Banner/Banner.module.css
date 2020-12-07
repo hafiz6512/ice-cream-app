@@ -1,0 +1,14 @@
+.banner {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+.banner .container {
+  padding: 0;
+  border-bottom: none;
+}
+.banner img {
+  display: block;
+  width: 100%;
+  padding: 0;
+}

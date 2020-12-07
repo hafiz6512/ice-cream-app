@@ -14,17 +14,21 @@ export default class IceCreamBuilder extends Component {
         },
         scoops: [],
         totalPrice: 0,
-    };
+    }; 
 
-    // componentDidMount() {
-    //     fetch('https://react-course-27447.firebaseio.com/items.json')
-    //         .then((response) => response.json())
-    //         .then((responeData) => {
-    //             this.setState({
-    //                 items: responeData,
-    //             });
-    //         });
-    // }
+    /*
+    componentDidMount() {
+        const url = 'https://react-course-27447.firebaseio.com/items.json';
+        
+        fetch(url)
+            .then((resultData) => resultData.json())
+            .then((resultData) => {
+                this.setState({
+                    items: resultData,
+                });
+            });
+    }
+    */
 
     addScoop = (scoop) => {
         const { scoops, items } = this.state;
